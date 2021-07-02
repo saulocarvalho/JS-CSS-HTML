@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = String(window.prompt("Qual é seu nome?"))
+        document.write(`Olá <strong>${nome.toUpperCase()}</strong>, seu nome tem ${nome.length} letras`) 
+        //FORMATANDO STRINGS"
+        /* Ao invés de utilizar esse modo para concatenar "Aluno " + nome + " é uma excelente pessoa"
+        é possivel utilizar `Aluno ${nome} é uma excelente pessoa` (entre crases ``) que é o template String
+        Os dois modos estão certos, mas o segundo fica mais "organizado" e é uma novidade do ECMASCRIPT */
+        /* var s = Saulo
+        posso usar s.length para contar os caracteres, posso usar s.toUpperCase() para deixar em maiúsculo
+        s.toLowerCase() para deixar minúsculo. 
+        <strong> deixa o texto em negrito </strong>*/
+
+        /* FORMATANDO NÚMEROS
+        n.toFixed para alterar as casas decimais, exemplo n.toFixed(2) o número irá sair com 2 casas decimais
+        n.toFixed(1).replace(',', ',') irá alterar o . por ,
+        n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}), o número irá sair com R$, podemos alterar BRL por USD, EUR e afins */
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro programa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(135, 135, 202);
+            color: red;     /* Comentário em CSS */
+            font-family: 'Montserrat';
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World!!!</h1> <!-- Comentário em HTML-->
+    <h1>AGORA EU CONSIGO!</h1>
+    <p>Lets see what will happen here</p>
+    <script>
+        var n1 = Number(window.prompt("Digite um número"))       //Apenas "Number(n) o JS recebe qualquer valor"
+        var n2 = Number(window.prompt("Digite mais um número")) //Para ser especifico Number.parseFloat(n)
+        var  soma = n1 + n2                                    //Para String String(n) ou n.toString()                        
+        window.alert("A soma dos valores é " + soma)
+        window.alert(`A soma dos valores é ${soma}`)
+        //FORMATANDO STRINGS
+        /* Ao invés de utilizar esse modo para concatenar "Aluno " + nome + " é uma excelente pessoa"
+        é possivel utilizar `Aluno ${nome} é uma excelente pessoa` (entre crases ``) que é o template String
+        Os dois modos estão certos, mas o segundo fica mais "organizado" e é uma novidade do ECMASCRIPT */
+        /* var s = Saulo
+        posso usar s.length para contar os caracteres, posso usar s.toUpperCase() para deixar em maiúsculo
+        s.toLowerCase() para deixar minúsculo. */
+    </script>
+</body>
+</html>
