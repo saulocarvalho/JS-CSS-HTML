@@ -28,6 +28,63 @@
         n.toFixed para alterar as casas decimais, exemplo n.toFixed(2) o número irá sair com 2 casas decimais
         n.toFixed(1).replace(',', ',') irá alterar o . por ,
         n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}), o número irá sair com R$, podemos alterar BRL por USD, EUR e afins */
+
+        /* OPERADORES MATEMÁTICOS
+        % = resto de uma divisão inteira, exemplo 5 % 2 = 1
+        ** = potência, exemplo 5 ** 2 = 25 
+        sequencia para precedência = (), **, * / %, + - 
+        var n = 3
+        n = n + 4 ou n+=4, são as mesmas coisas 
+
+        OPERADORES DE INCREMENTO 
+        x = x + 1 ou x += 1 ou n++
+        em resumo n++ acrescenta 1 e n-- decrementa
+
+        OPERADORES RELACIONAIS
+        > < >= <= == != 
+
+        OPERADORES DE IDENTIDADE
+        5 == 5 true
+        5 == '5' true... mesmo sendo tipos diferentes
+        5 === '5' false, pois são tipos diferentes, mas tem o mesmo valor
+        pois === testa se são identicos, mesmo valor e mesmo tipo
+
+        OPERADORES LÓGICOS
+        ! negação
+        && conjunção (e)
+        || disjunção (ou) 
+
+        Conjunção
+        true && true = true
+        true && false = false
+        false && true = false
+        false && false = false 
+
+        Disjunção
+        só precisa que um seja verdadeiro
+        true || true = true
+        true || false = true
+        false || true = true
+        false || false = false
+
+        ORDENS DE OPERAÇÃO EM UM CALCULO
+        operadores aritimeticos, depois relacionais e depois operadores lógicos
+        primeiro ! depois o && e depois o ||
+
+        EM RESUMO - A SEQUÊNCIA DE PRECEDÊNCIA
+        () ** /...
+        > < >=...
+        !
+        &&
+        || 
+
+        OPERAÇÃO TERNÁRIO
+        se chama ternário pois tem 3 operadores
+        teste ? true : false
+        exemplo, média >= 7 ? "Aprovado" : "Reprovado"
+        Já diz o que fará caso seja true e false*/
+
     </script>
+    
 </body>
 </html>
